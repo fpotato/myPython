@@ -1,2 +1,2 @@
-Creating a new branch is quick and simple.
+Creating a new branch is quick and1 simple.
 git merge --no-ff -m "merge wth no-ff" dev
