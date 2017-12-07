@@ -5,10 +5,10 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-import bisect 
+import bisect
 
 def grade(score, breakpoints=[60,70,80,90], grades = 'FDCBA'):
-	i = bisect.bisect(breakpoints,score)
-	return grade[i]
+	i = bisect.bisect(breakpoints, score)
+	return grades[i]
 
-print(grade(10))
+print(bisect.bisect([10,20], 10))
